@@ -1,0 +1,10 @@
+---
+- name: This playbook install a standalone JBoss server.
+  hosts: localhost
+  connection: local
+  become: yes
+  vars_files:
+   - infra.yml
+
+  roles:
+    - jboss-standalone

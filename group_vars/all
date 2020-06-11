@@ -1,0 +1,5 @@
+# Here are variables related to the standalone JBoss installation
+admin_port: 8181
+http_port: 8189
+https_port: 8090
+
