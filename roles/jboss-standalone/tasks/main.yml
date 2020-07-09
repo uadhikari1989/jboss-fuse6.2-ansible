@@ -37,7 +37,7 @@
        dest: /etc/environment 
        state: present 
        regexp: '^JAVA_HOME'
-       line: 'JAVA_HOME={{ oracle_home }}/jdk1.8.0_121/bin'
+       line: 'JAVA_HOME={{ oracle_home }}/jdk1.8.0_121'
 
 - name: Create a Soft link to java
   become: yes
